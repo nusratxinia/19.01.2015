@@ -1,0 +1,11 @@
+<ul>
+<?php
+foreach($_SERVER as $key=>$wish){?>
+
+    <li><?php echo $key."-".$wish;?></li>
+
+<?php
+}
+?>
+
+</ul>
